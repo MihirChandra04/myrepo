@@ -1,0 +1,13 @@
+how_to_push_a_commit_to_GitHub_desktop
+
+mkdir myrepo
+cd myrepo
+git init
+echo> readme.md
+ls -al
+git commit -am"init commit"
+git remote add origin [GitHub profile link]
+git config --global user.name "MihirChandra04"
+git config --global user.email "mihirchandra04@gmail.com"
+git config --list
+git push -u origin master 
